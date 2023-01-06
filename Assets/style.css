@@ -1,14 +1,21 @@
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
+    /* trying to add some more color to the page */
+    background: linear-gradient(90deg, rgb(138, 146, 232)0%, rgb(31, 94, 136) 100%);
   }
-  
+/* targets the heading */
+  .jumbotron {
+    color: white;
+    background: linear-gradient(90deg, rgb(53, 61, 154)0%, rgb(8, 10, 124) 100%);
+  }
+  /* targets the middle bars of the planner */
   textarea {
     background: transparent;
     border: none;
     resize: none;
     color: #000000;
-    border-left: 1px solid black;
+    border: 2px solid black;
     padding: 10px;
   }
   
@@ -21,13 +28,14 @@ body {
   }
   
   .row {
-    border-top: 1px solid white;
+    border: 1px solid black;
   }
   
   .hour {
     background-color: #ffffff;
     color: #000000;
-    border-top: 1px dashed #000000;
+    /* wasnt fond of the dashed lines so i took them out */
+    /* border-top: 1px dashed #000000; */
   }
   
   .past {
